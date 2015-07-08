@@ -40,7 +40,7 @@ WORKDIR /etc/apache2/sites-available/
 COPY resources/sites-available/* ./
 
 #enable mods and site
-RUN a2enmod rewrite dispatcher ssl pagespeed
+RUN a2enmod rewrite dispatcher ssl pagespeed expires headers
 RUN a2dissite 000-default
 RUN a2ensite aemsite
 
