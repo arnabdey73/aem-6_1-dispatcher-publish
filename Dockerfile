@@ -1,7 +1,7 @@
 # DOCKER-VERSION 1.7.0
+FROM dbenge/aem-6-1-base
 LABEL version="1.0"
 LABEL description="AEM publish dispatcher.  Uses Apache and Google Pagespeed"
-FROM dbenge/aem-6-1-base
 MAINTAINER dbenge
 
 RUN apt-get -y install apache2 apache2-utils libssl1.0.0 libssl-dev
