@@ -10,4 +10,4 @@ run the image with this command
 docker run --name AEM_DISPATCHER -t dispatcher_4-1-9
 ```
 
-WORK in progress! not finished yet.
+Working but we still need to do more tuning.  As if everything in life it can be better and we can improve it.
