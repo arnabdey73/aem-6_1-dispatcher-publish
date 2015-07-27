@@ -1,5 +1,5 @@
 # DOCKER-VERSION 1.7.0
-FROM dbenge/aem-6-1-base
+FROM dbenge/aem-6_1-base
 LABEL version="1.0"
 LABEL description="AEM publish dispatcher.  Uses Apache and Google Pagespeed"
 MAINTAINER dbenge
